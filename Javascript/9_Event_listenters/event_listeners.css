@@ -1,0 +1,42 @@
+*{
+margin: 0%;
+padding: 0%;
+}
+h1{
+  text-align: center;
+  margin:10px;
+  padding:5px ;
+  background-color: rgb(229, 229, 133);
+}
+button{
+  border: none;
+  color:white ;
+  background-color: black;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 9px;
+  transition: all 0.4s;
+}
+button:hover{
+  opacity: 0.8;
+}
+button:active{
+  opacity: 0.35;
+}
+div{
+  display: inline-block;
+  margin: 10px;
+}
+.classfordiv{
+  color: white;
+  padding: 20px;
+  border-radius:4px ;
+  background-color: rgb(209, 144, 59);
+  display: block;
+}
+#ip{
+  display: block;
+padding: 5px;
+margin-left: 10px;
+margin-top: 10px;
+}
